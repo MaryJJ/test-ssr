@@ -9,9 +9,9 @@ import { Title, Meta } from '@angular/platform-browser';
 export class AppComponent implements OnInit {
   _title = 'test-ssr';
   data = {
-    name: 'Michael Jordan',
-    bio: 'Former baseball player',
-    image: 'avatar.png',
+    name: 'App Test SSR',
+    bio: 'Server-side rendering (SSR) with Angular Universal',
+    image: 'AngularUniversal.png',
   };
   constructor(private title: Title, private meta: Meta) {}
 

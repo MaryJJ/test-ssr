@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   data = {
     name: 'App Test SSR',
     bio: 'Server-side rendering (SSR) with Angular Universal',
-    image: 'AngularUniversal.png',
+    image: 'https://app-test-ssr.herokuapp.com/assets/AngularUniversal.png',
   };
   constructor(private title: Title, private meta: Meta) {}
 
